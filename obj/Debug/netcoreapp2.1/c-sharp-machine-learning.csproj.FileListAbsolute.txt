@@ -1,0 +1,11 @@
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/c-sharp-machine-learning.deps.json
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/c-sharp-machine-learning.runtimeconfig.json
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/c-sharp-machine-learning.runtimeconfig.dev.json
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/c-sharp-machine-learning.dll
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/c-sharp-machine-learning.pdb
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.csprojAssemblyReference.cache
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.csproj.CoreCompileInputs.cache
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.AssemblyInfoInputs.cache
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.AssemblyInfo.cs
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.dll
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.pdb
