@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{BABCB875-D0AA-4B7B-ACB0-7273BF43A282}|Default">
   <MonoDevelop.Ide.ItemProperties.c-sharp-machine-learning PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iris-data.txt">
     <Files>
       <File FileName="Program.cs" Line="9" Column="12" />
+      <File FileName="iris-data.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="c-sharp-machine-learning" expanded="True">
             <Node name="c-sharp-machine-learning" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="iris-data.txt" selected="True" />
             </Node>
           </Node>
         </State>
