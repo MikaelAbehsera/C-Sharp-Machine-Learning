@@ -41,7 +41,10 @@ namespace c_sharp_machine_learning
             // Instantizing
             var mlContext = new MLContext();
 
-            
+            var reader = mlContext.Data.CreateTextReader<IrisData>(separatorChar: ',', hasHeader: true);
+            IDataView trainingDataView = reader.Read("iris-data.txt");
+
+
         }
     }
 }
