@@ -9,3 +9,4 @@
 /Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.AssemblyInfo.cs
 /Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.dll
 /Users/Mikaelabehsera/code/c-sharp-machine-learning/obj/Debug/netcoreapp2.1/c-sharp-machine-learning.pdb
+/Users/Mikaelabehsera/code/c-sharp-machine-learning/bin/Debug/netcoreapp2.1/iris-data.txt
