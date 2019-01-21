@@ -32,9 +32,10 @@ namespace c_sharp_machine_learning
         /// </summary>
         public class IrisPrediction
         {
-            [Column("PredeictedLabel")]
-            public string PredictedLabel;
+            [ColumnName("PredictedLabel")]
+            public string PredictedLabels;
         }
+
 
         static void Main(string[] args)
         {
@@ -49,10 +50,11 @@ namespace c_sharp_machine_learning
             // Assign numeric values to text in the label column, because only numbers can be processed during model training.
             // Add a learning algorithm to the PipeLine
             // Convert the label back into a text
-            var pipeline = mlContext.Transforms.Conversion.MapKeyToValue("Label")
-                .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
-                .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumn: "Label", featureColumn: "Features"))
-                .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel"));
+            var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")
+               .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
+               .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumn: "Label", featureColumn: "Features"))
+               .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel"));
+
 
             // train the model based on the data set provided
             var model = pipeline.Fit(trainingDataView);
@@ -68,7 +70,7 @@ namespace c_sharp_machine_learning
                 });
 
 
-            Console.WriteLine($"Predicted flower type is: {prediction.PredictedLabel}");
+            Console.WriteLine($"Predicted flower type is: {prediction.PredictedLabels}");
         }
     }
 }
