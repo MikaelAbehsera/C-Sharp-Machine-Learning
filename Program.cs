@@ -71,6 +71,7 @@ namespace c_sharp_machine_learning
 
 
             Console.WriteLine($"Predicted flower type is: {prediction.PredictedLabels}");
+            Console.ReadLine();
         }
     }
 }
